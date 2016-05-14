@@ -13,6 +13,8 @@
 		016A03371BEEEA1F002E502D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016A03351BEEEA1F002E502D /* Main.storyboard */; };
 		016A03391BEEEA1F002E502D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016A03381BEEEA1F002E502D /* Assets.xcassets */; };
 		016A033C1BEEEA1F002E502D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016A033A1BEEEA1F002E502D /* LaunchScreen.storyboard */; };
+		016A03461BEEF9C7002E502D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 016A03441BEEF9C7002E502D /* SecondViewController.m */; settings = {ASSET_TAGS = (); }; };
+		016A03471BEEF9C7002E502D /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 016A03451BEEF9C7002E502D /* SecondViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		016A03381BEEEA1F002E502D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		016A033B1BEEEA1F002E502D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		016A033D1BEEEA1F002E502D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		016A03431BEEF9C7002E502D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		016A03441BEEF9C7002E502D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		016A03451BEEF9C7002E502D /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,9 @@
 				016A03321BEEEA1F002E502D /* ViewController.h */,
 				016A03331BEEEA1F002E502D /* ViewController.m */,
 				016A03351BEEEA1F002E502D /* Main.storyboard */,
+				016A03431BEEF9C7002E502D /* SecondViewController.h */,
+				016A03441BEEF9C7002E502D /* SecondViewController.m */,
+				016A03451BEEF9C7002E502D /* SecondViewController.xib */,
 				016A03381BEEEA1F002E502D /* Assets.xcassets */,
 				016A033A1BEEEA1F002E502D /* LaunchScreen.storyboard */,
 				016A033D1BEEEA1F002E502D /* Info.plist */,
@@ -136,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016A03471BEEF9C7002E502D /* SecondViewController.xib in Resources */,
 				016A033C1BEEEA1F002E502D /* LaunchScreen.storyboard in Resources */,
 				016A03391BEEEA1F002E502D /* Assets.xcassets in Resources */,
 				016A03371BEEEA1F002E502D /* Main.storyboard in Resources */,
@@ -149,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016A03461BEEF9C7002E502D /* SecondViewController.m in Sources */,
 				016A03341BEEEA1F002E502D /* ViewController.m in Sources */,
 				016A03311BEEEA1F002E502D /* AppDelegate.m in Sources */,
 				016A032E1BEEEA1F002E502D /* main.m in Sources */,
